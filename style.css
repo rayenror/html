@@ -1,0 +1,89 @@
+/* #about{color: rgb(45, 44, 43);
+    background-color: rgb(255, 136, 0);
+    text-align: center;
+
+}
+h1{
+    color: chartreuse;
+    background-color: black;
+    text-align: center;
+
+}
+
+img{
+    display: flex;
+    margin-left: 30%;
+    background-color: black;
+    
+}
+.h1{
+    display: flex;
+    justify-content: space-between;
+
+}
+ul{
+    list-style: none;
+    display: flex;
+
+}
+li{
+    display: flex;
+    justify-content: space-between;
+}
+/* li{
+    background-color: aqua;
+}
+li:hover{background-color: brown;
+
+}
+nav{
+    display: flex;
+}
+ul{
+    list-style: none;
+    display: flex;
+  justify-content: space-between;
+} */ */
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    background-color: blanchedalmond    ;
+}
+.container {
+    padding: 10px;
+    border: 10px solid black;
+    margin: 10px 0 10px 0;
+    background-color: rgb(142, 144, 144);
+    color: black;
+    text-align: center;
+    width: 40%;
+    height: 20%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container1{
+    background-color: burlywood ;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+}
+h1{
+    font-size: 54px;
+    font-weight: 500;
+    text-decoration:underline;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    padding: 10px;
+    background-color: cadetblue;
+}
+li:hover{
+    background-color: brown;
+}

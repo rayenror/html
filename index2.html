@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar {
+            background-color: #850e0e;
+            display: flex;
+            justify-content: space-between;
+
+            padding: 10px 20px;
+        }
+
+        .nav-links {
+            display: flex;
+        }
+
+        .nav-links li {
+            list-style: none;
+            display: flex;
+        }
+
+        .nav-links a {
+            color: rgb(206, 249, 11);
+            text-decoration: none;
+            padding: 2px 10px;
+            justify-content: center;
+            border: 20px;
+
+
+        }
+
+        .logo {
+            color: rgb(226, 226, 236);
+            font-size: 30px;
+            font-weight: bold;
+            padding: 2%;
+        }
+
+        .navbar a:hover {
+            background-color: #252222;
+            display: flex;
+           
+        }
+
+        .navbar .active {
+            background-color: #5b4e4e;
+            border-radius: 4px;
+            display: flex;
+        }
+
+        .container {
+            padding: 20px;
+            text-align: center;
+
+        }
+
+        .responsive-img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="logo">RayTek</div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h2>Welcome to My Website</h2>
+        <p>This is a simple section with an image and some text. The image is responsive.</p>
+        <img src="rayen[1].jpg" width="200" alt="Sample Image" class="responsive-img">
+    </div>
+
+</body>
+
+</html>
